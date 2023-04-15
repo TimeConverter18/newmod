@@ -1,0 +1,145 @@
+{
+  "mod_elements": [
+    {
+      "name": "Buton1",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buton_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/megamodnostalgy/procedures/Buton1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedura"
+    },
+    {
+      "name": "Buton2",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buton_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/megamodnostalgy/procedures/Buton2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedura"
+    },
+    {
+      "name": "Skills",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skills",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/megamodnostalgy/client/gui/SkillsScreen.java",
+          "src/main/java/net/mcreator/megamodnostalgy/network/SkillsButtonMessage.java",
+          "src/main/java/net/mcreator/megamodnostalgy/world/inventory/SkillsMenu.java"
+        ]
+      },
+      "path": "~/procedura"
+    },
+    {
+      "name": "Buton3",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buton_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/megamodnostalgy/procedures/Buton3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedura"
+    },
+    {
+      "name": "Buton4",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buton_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/megamodnostalgy/procedures/Buton4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedura"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "gui.megamod_nostalgy.skills.button_biegikakdebil": "БЕГИ",
+      "gui.megamod_nostalgy.skills.label_1alm": "1alm",
+      "gui.megamod_nostalgy.skills.button_budflieshiemkakdebil": "БУДЬФЛЕШЕМ",
+      "gui.megamod_nostalgy.skills.label_1alm1": "1alm",
+      "gui.megamod_nostalgy.skills.label_1alm2": "1alm",
+      "gui.megamod_nostalgy.skills.label_skilly": "СКИЛЛЫ",
+      "gui.megamod_nostalgy.skills.label_1alm3": "1alm",
+      "gui.megamod_nostalgy.skills.button_riegienkakudebila": "РЕГЕНКА",
+      "gui.megamod_nostalgy.skills.button_prygaikakdebil": "ПРЫГАЙ"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "FUNCTIONS",
+        "children": []
+      },
+      {
+        "name": "procedura",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "megamod_nostalgy",
+    "modName": "megamod nostalgy",
+    "version": "1.0.0",
+    "author": "Kiril, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.megamodnostalgy",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}
